@@ -3,7 +3,7 @@ const maxHeight = 30;
 const timespan = .5 * 60; // 30s
 var currentTime = timespan;
 const emptyness = document.querySelector("#emptyness");
-const intervalTime = 2.5; 
+const intervalTime = .1; 
 
 function startTimer(){
     console.log("Timer Started");
